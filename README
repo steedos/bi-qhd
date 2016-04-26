@@ -1,0 +1,24 @@
+### BI Mobile Client for QHD Port
+
+# Run iOS 
+- cordova platform remove ios
+- cordova platform add ios
+- cordova run ios
+
+# Run Android 
+- cordova platform remove ios
+- cordova platform add ios
+- cordova run android
+- #cordova build android
+
+### Generate icons for android and ios
+ 
+Install requirements
+- brew install imagemagick
+- sudo npm install cordova-icon -g
+- sudo npm install cordova-splash -g
+
+Create an icon.png (512*512) file and an splash.png (2208x2208) file in the root folder of your cordova project. 
+Then run: 
+- cordova-icon
+- cordova-splash
