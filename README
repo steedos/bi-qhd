@@ -3,6 +3,8 @@
 # Run iOS 
 - cordova platform remove ios
 - cordova platform add ios
+- cordova-icon
+- cordova-splash
 - cordova run ios
 
 # Run Android 
